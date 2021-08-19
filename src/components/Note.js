@@ -24,7 +24,7 @@ export default function Note({ note, deleteNote }) {
         },
 
         griditem: {
-            backgroundColor: '#ffffff',
+            // backgroundColor: '#afafaf',
             padding: '10px',
             margin: '30px'
         },
@@ -34,6 +34,7 @@ export default function Note({ note, deleteNote }) {
             justifyContent: 'center'
         },
         card_component:{
+            backgroundColor: '#f4f4f4',
             padding: '60px',
             display: 'flex',
             flexDirection: 'row',

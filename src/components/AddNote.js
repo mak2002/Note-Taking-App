@@ -7,11 +7,18 @@ import TextField from '@material-ui/core/TextField'
 const useStyles = makeStyles({
     main: {
         backgroundColor: '#ffffff',
-        height: '100vh',
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        alignText: 'center',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '100%'
     },
     btn: {
         fontSize: 20,
         backgroundColor:'violet',
+        margin: '30px'
         // '&:hover' : {
         //     backgroundColor:'blue'
         // }
@@ -24,12 +31,12 @@ const useStyles = makeStyles({
 
     textfield : {
         padding: 10,
-        width: '50%',
+        width: '100%',
     },
     
     textfield_Note : {
         padding: 10,
-        width: '50%',
+        width: '100%',
 
     }
 })

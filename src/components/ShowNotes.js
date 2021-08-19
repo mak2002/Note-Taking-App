@@ -13,20 +13,24 @@ export default function ShowNotes(props) {
     
     const useStyles = makeStyles({
         main: {
-            backgroundColor: '#ffffff'
+            backgroundColor: '#ffffff',
         },
         
         grid: {
             display: 'flex',
             flexDirection: 'row',
-            // minHeight: '100vh',
             padding: '40px',
             backgroundColor: '#ffffff',
             // height: '100vh',
         },
-
+        
         griditem: {
             padding: '20px',
+        },
+        typography:{
+            backgroundColor: '#ffffff',
+            padding: '50px',
+            // margin: '20px'
         }
         
     })
@@ -36,6 +40,9 @@ export default function ShowNotes(props) {
     const classes = useStyles()
     return (
         <div className="notes-show">
+            <Typography className={classes.typography} variant="h2" color="primary">
+                All Notes
+            </Typography>
             <Grid container className={classes.grid}>
             {props.Notes.map((note) => { 
             {console.log(note)}
