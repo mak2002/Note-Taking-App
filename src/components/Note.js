@@ -14,9 +14,7 @@ import Drawer from '@material-ui/core/Drawer';
 export default function Note({ note, deleteNote }) {
     const useStyles = makeStyles({
         title:{
-            // width:'50%',
             fontSize: 35,
-            // textAlign: 'center',
         },
         
         text:{
@@ -24,7 +22,6 @@ export default function Note({ note, deleteNote }) {
         },
 
         griditem: {
-            // backgroundColor: '#afafaf',
             padding: '10px',
             margin: '30px'
         },
@@ -62,7 +59,6 @@ export default function Note({ note, deleteNote }) {
                                 
                         </div>
                             <DeleteForeverSharpIcon className={classes.btn} onClick={handleClick}/>
-                            {/* <EditIcon className={classes.btn}/> */}
                         </CardContent>
 
                     </Card>
@@ -72,8 +68,3 @@ export default function Note({ note, deleteNote }) {
 
     )
 }
-// xs, extra-small: 0px
-// sm, small: 600px
-// md, medium: 960px
-// lg, large: 1280px
-// xl, extra-large: 1920px

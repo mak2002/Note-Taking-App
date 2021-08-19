@@ -12,7 +12,6 @@ const useStyles = makeStyles({
         position: 'relative',
         top: '20%',
         left: '15%',
-        // backgroundColor: '#ffffff'
     }
 
 })

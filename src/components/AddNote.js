@@ -19,13 +19,9 @@ const useStyles = makeStyles({
         fontSize: 20,
         backgroundColor:'violet',
         margin: '30px'
-        // '&:hover' : {
-        //     backgroundColor:'blue'
-        // }
     },
 
     title : {
-        textDecoration: 'underline',
         marginbottom: 20
     },
 
@@ -59,7 +55,7 @@ export default function AddNote({ addNote }) {
     return (
         <div className={classes.main}>
             <Typography 
-                className = {classes.title} variant='h4' color = 'textSecondary' gutterBottom
+                className = {classes.title} variant='h2' color = 'primary' gutterBottom
             >
             Create Note
             </Typography>

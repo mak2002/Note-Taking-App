@@ -9,7 +9,6 @@ import {Grid} from '@material-ui/core';
 const useStyles = makeStyles({
     main: {
         height: '100vh',
-        // backgroundColor:'#ffffff',
         display: 'flex',
         flexDirection: 'column',
         position: 'relative',
@@ -20,6 +19,7 @@ const useStyles = makeStyles({
         width: '50%',
     },
     button: {
+        marginTop:'20px',
         width: '5%',
     }
 })

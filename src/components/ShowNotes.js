@@ -21,7 +21,6 @@ export default function ShowNotes(props) {
             flexDirection: 'row',
             padding: '40px',
             backgroundColor: '#ffffff',
-            // height: '100vh',
         },
         
         griditem: {
@@ -30,7 +29,6 @@ export default function ShowNotes(props) {
         typography:{
             backgroundColor: '#ffffff',
             padding: '50px',
-            // margin: '20px'
         }
         
     })
