@@ -2,6 +2,11 @@ Simple Note Taking App
 
 ## Simple Note Taking App
 
+<img src="images/Screenshot_20210930_153228.png" > 
+<img src="images/Screenshot_20210930_153236.png" > 
+<img src="images/Screenshot_20210930_153246.png" > 
+<img src="images/Screenshot_20210930_153311.png" > 
+
 ### Technologies Used 
 
 * #### **React** for FrontEnd
