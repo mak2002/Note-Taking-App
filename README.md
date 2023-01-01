@@ -1,6 +1,4 @@
-Simple Note Taking App
-
-## Simple Note Taking App
+## Simple Note Taking App :memo:
 
 <img src="images/Screenshot_20210930_153228.png" > 
 <img src="images/Screenshot_20210930_153236.png" > 
